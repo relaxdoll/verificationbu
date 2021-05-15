@@ -1,0 +1,48 @@
+/*------------------------
+	icons
+-------------------------*/
+@function unicode($str) {
+  @return unquote("\"\\#{$str}\"");
+}
+
+$icon-box-3d-50: unicode(ea02);
+$icon-cheque-3: unicode(ea03);
+$icon-event-confirm: unicode(ea04);
+$icon-compass-3: unicode(ea05);
+$icon-mobile-chat: unicode(ea06);
+$icon-headphones-mic: unicode(ea07);
+$icon-decision-process: unicode(ea08);
+$icon-touch-id: unicode(ea09);
+
+.icon-box-3d-50::before {
+  content: $icon-box-3d-50;
+}
+
+.icon-cheque-3::before {
+  content: $icon-cheque-3;
+}
+
+.icon-event-confirm::before {
+  content: $icon-event-confirm;
+}
+
+.icon-compass-3::before {
+  content: $icon-compass-3;
+}
+
+.icon-mobile-chat::before {
+  content: $icon-mobile-chat;
+}
+
+.icon-headphones-mic::before {
+  content: $icon-headphones-mic;
+}
+
+.icon-decision-process::before {
+  content: $icon-decision-process;
+}
+
+.icon-touch-id::before {
+  content: $icon-touch-id;
+}
+

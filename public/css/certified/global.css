@@ -1,0 +1,138 @@
+/** GENERALE *****/
+html, body {
+    margin: 0;
+    border: 0;
+    color: #575757;
+    background-color: #dcdbdc;
+    font-size: 12px;
+    font-family: arial;
+    text-align: center;
+}
+
+img {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+}
+
+h1 {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0 0 0 15px;
+}
+
+hr {
+    background-color: #cacaca;
+    height: 1px;
+    border: 0px;
+}
+
+.pAbsolute {
+    position: absolute;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.clear {
+    clear: both;
+}
+
+.toLeft {
+    float: left;
+}
+
+.toRight {
+    float: right;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.aRight {
+    text-align: right;
+}
+
+.aJustify {
+    text-align: justify;
+}
+
+.aCenter {
+    text-align: center;
+}
+
+.hide {
+    display: none;
+}
+
+.p5 {
+    padding: 5px;
+}
+
+.pTop2 {
+    padding-top: 2px;
+}
+
+.mTop5 {
+    margin-top: 5px;
+}
+
+.mTop10 {
+    margin-top: 10px;
+}
+
+.mTop15 {
+    margin-top: 15px;
+}
+
+.mTop20 {
+    margin-top: 20px;
+}
+
+.mLeft5 {
+    margin-left: 5px;
+}
+
+.mLeft10 {
+    margin-left: 10px;
+}
+
+.mLeft15 {
+    margin-left: 15px;
+}
+
+.mLeft20 {
+    margin-left: 20px;
+}
+
+.mLeft105 {
+    margin-left: 105px;
+}
+
+.mLeft160 {
+    margin-left: 160px;
+}
+
+.mRight10 {
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: underline;
+    color: #575757;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #5e89b7;
+}

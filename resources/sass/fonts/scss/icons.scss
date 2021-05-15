@@ -1,0 +1,23 @@
+/*------------------------
+	icons
+-------------------------*/
+@function unicode($str) {
+  @return unquote("\"\\#{$str}\"");
+}
+
+$icon-box-3d-50: unicode(ea02);
+$icon-cheque-3: unicode(ea03);
+$icon-event-confirm: unicode(ea04);
+
+.icon-box-3d-50::before {
+  content: $icon-box-3d-50;
+}
+
+.icon-cheque-3::before {
+  content: $icon-cheque-3;
+}
+
+.icon-event-confirm::before {
+  content: $icon-event-confirm;
+}
+

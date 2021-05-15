@@ -1,0 +1,23 @@
+/*------------------------
+	icons
+-------------------------*/
+@function unicode($str) {
+  @return unquote("\"\\#{$str}\"");
+}
+
+$icon-money-coins: unicode(ea02);
+$icon-time-machine: unicode(ea03);
+$icon-verified: unicode(ea04);
+
+.icon-money-coins::before {
+  content: $icon-money-coins;
+}
+
+.icon-time-machine::before {
+  content: $icon-time-machine;
+}
+
+.icon-verified::before {
+  content: $icon-verified;
+}
+

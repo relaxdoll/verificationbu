@@ -1,0 +1,155 @@
+/* --------------------------------
+
+Landing Web Font
+Generated using nucleoapp.com
+
+-------------------------------- */
+@import "variables";
+@import "mixins";
+
+@font-face {
+  font-family: 'Landing';
+  src: url('#{$icon-font-path}/Landing.eot');
+  src: url('#{$icon-font-path}/Landing.eot') format('embedded-opentype'),
+    url('#{$icon-font-path}/Landing.woff2') format('woff2'),
+    url('#{$icon-font-path}/Landing.woff') format('woff'),
+    url('#{$icon-font-path}/Landing.ttf') format('truetype'),
+    url('#{$icon-font-path}/Landing.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*------------------------
+	base class definition
+-------------------------*/
+
+.landing-icon {
+  display: inline-block;
+  font: normal normal normal 1em/1 'Landing';
+  speak: none;
+  text-transform: none;
+  /* Better Font Rendering */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/*------------------------
+  change icon size
+-------------------------*/
+
+/* relative units */
+.landing-icon-sm {
+  font-size: 0.8em;
+}
+.landing-icon-lg {
+  font-size: 1.2em;
+}
+/* absolute units */
+.landing-icon-16 {
+  font-size: 16px;
+}
+.landing-icon-32 {
+  font-size: 32px;
+}
+
+/*----------------------------------
+  add a square/circle background
+-----------------------------------*/
+
+.landing-icon-bg-square,
+.landing-icon-bg-circle {
+  padding: 0.35em;
+  background-color: $icon-background-color;
+}
+
+.landing-icon-bg-circle {
+  border-radius: 50%;
+}
+
+/*------------------------------------
+  use icons as list item markers
+-------------------------------------*/
+
+.landing-icon-ul {
+  padding-left: 0;
+  list-style-type: none;
+
+  > li {
+    display: flex;
+    align-items: flex-start;
+    line-height: 1.4;
+  }
+
+  > li > .landing-icon {
+    margin-right: $icon-li-margin-right;
+    line-height: inherit;
+  }
+}
+
+/*------------------------
+  spinning icons
+-------------------------*/
+
+.landing-icon-is-spinning {
+  -webkit-animation: landing-icon-spin 2s infinite linear;
+  -moz-animation: landing-icon-spin 2s infinite linear;
+  animation: landing-icon-spin 2s infinite linear;
+}
+
+@-webkit-keyframes landing-icon-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@-moz-keyframes landing-icon-spin {
+  0% {
+    -moz-transform: rotate(0deg);
+  }
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+@keyframes landing-icon-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+/*------------------------
+  rotated/flipped icons
+-------------------------*/
+
+.landing-icon-rotate-90  {
+	@include icon-rotate(90deg, 1);
+}
+
+.landing-icon-rotate-180 {
+	@include icon-rotate(180deg, 2);
+}
+
+.landing-icon-rotate-270 {
+	@include icon-rotate(270deg, 3);
+}
+
+.landing-icon-flip-y {
+	@include icon-flip(-1, 1, 0);
+}
+.landing-icon-flip-x {
+	@include icon-flip(1, -1, 2);
+}
+
+@import "icons";

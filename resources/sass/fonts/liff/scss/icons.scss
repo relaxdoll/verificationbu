@@ -1,0 +1,88 @@
+/*------------------------
+	icons
+-------------------------*/
+@function unicode($str) {
+  @return unquote("\"\\#{$str}\"");
+}
+
+$icon-truck-front: unicode(ea02);
+$icon-bus-front-10: unicode(ea03);
+$icon-single-05: unicode(ea04);
+$icon-document: unicode(ea05);
+$icon-image-add: unicode(ea06);
+$icon-image-add-2: unicode(ea07);
+$icon-speedometer: unicode(ea08);
+$icon-h-dashboard: unicode(ea09);
+$icon-drop: unicode(ea0a);
+$icon-fuel-2: unicode(ea0b);
+$icon-code: unicode(ea0c);
+$icon-tag: unicode(ea0d);
+$icon-measure-big: unicode(ea0e);
+$icon-calendar-date-2: unicode(ea0f);
+$icon-calendar: unicode(ea10);
+$icon-filter: unicode(ea11);
+
+.icon-truck-front::before {
+  content: $icon-truck-front;
+}
+
+.icon-bus-front-10::before {
+  content: $icon-bus-front-10;
+}
+
+.icon-single-05::before {
+  content: $icon-single-05;
+}
+
+.icon-document::before {
+  content: $icon-document;
+}
+
+.icon-image-add::before {
+  content: $icon-image-add;
+}
+
+.icon-image-add-2::before {
+  content: $icon-image-add-2;
+}
+
+.icon-speedometer::before {
+  content: $icon-speedometer;
+}
+
+.icon-h-dashboard::before {
+  content: $icon-h-dashboard;
+}
+
+.icon-drop::before {
+  content: $icon-drop;
+}
+
+.icon-fuel-2::before {
+  content: $icon-fuel-2;
+}
+
+.icon-code::before {
+  content: $icon-code;
+}
+
+.icon-tag::before {
+  content: $icon-tag;
+}
+
+.icon-measure-big::before {
+  content: $icon-measure-big;
+}
+
+.icon-calendar-date-2::before {
+  content: $icon-calendar-date-2;
+}
+
+.icon-calendar::before {
+  content: $icon-calendar;
+}
+
+.icon-filter::before {
+  content: $icon-filter;
+}
+

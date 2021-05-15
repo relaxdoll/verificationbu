@@ -1,0 +1,58 @@
+/*------------------------
+	icons
+-------------------------*/
+@function unicode($str) {
+  @return unquote("\"\\#{$str}\"");
+}
+
+$icon-loop: unicode(ea02);
+$icon-opening-times: unicode(ea03);
+$icon-square-pin: unicode(ea04);
+$icon-boat-front: unicode(ea05);
+$icon-ic_phone_48px: unicode(ea06);
+$icon-letter: unicode(ea07);
+$icon-copyright: unicode(ea08);
+$icon-arrow-e: unicode(ea09);
+$icon-handshake: unicode(ea0a);
+$icon-money-time: unicode(ea0b);
+
+.icon-loop::before {
+  content: $icon-loop;
+}
+
+.icon-opening-times::before {
+  content: $icon-opening-times;
+}
+
+.icon-square-pin::before {
+  content: $icon-square-pin;
+}
+
+.icon-boat-front::before {
+  content: $icon-boat-front;
+}
+
+.icon-ic_phone_48px::before {
+  content: $icon-ic_phone_48px;
+}
+
+.icon-letter::before {
+  content: $icon-letter;
+}
+
+.icon-copyright::before {
+  content: $icon-copyright;
+}
+
+.icon-arrow-e::before {
+  content: $icon-arrow-e;
+}
+
+.icon-handshake::before {
+  content: $icon-handshake;
+}
+
+.icon-money-time::before {
+  content: $icon-money-time;
+}
+

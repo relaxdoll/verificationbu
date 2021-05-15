@@ -1,0 +1,155 @@
+/* --------------------------------
+
+oneibis Web Font
+Generated using nucleoapp.com
+
+-------------------------------- */
+@import "variables.less";
+@import "mixins.less";
+
+@font-face {
+  font-family: 'oneibis';
+  src: url('@{icon-font-path}/oneibis.eot');
+  src: url('@{icon-font-path}/oneibis.eot') format('embedded-opentype'),
+    url('@{icon-font-path}/oneibis.woff2') format('woff2'),
+    url('@{icon-font-path}/oneibis.woff') format('woff'),
+    url('@{icon-font-path}/oneibis.ttf') format('truetype'),
+    url('@{icon-font-path}/oneibis.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*------------------------
+	base class definition
+-------------------------*/
+
+.oneibis {
+  display: inline-block;
+  font: normal normal normal 1em/1 'oneibis';
+  speak: none;
+  text-transform: none;
+  /* Better Font Rendering */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/*------------------------
+  change icon size
+-------------------------*/
+
+/* relative units */
+.oneibis-sm {
+  font-size: 0.8em;
+}
+.oneibis-lg {
+  font-size: 1.2em;
+}
+/* absolute units */
+.oneibis-16 {
+  font-size: 16px;
+}
+.oneibis-32 {
+  font-size: 32px;
+}
+
+/*----------------------------------
+  add a square/circle background
+-----------------------------------*/
+
+.oneibis-bg-square,
+.oneibis-bg-circle {
+  padding: 0.35em;
+  background-color: @icon-background-color;
+}
+
+.oneibis-bg-circle {
+  border-radius: 50%;
+}
+
+/*------------------------------------
+  use icons as list item markers
+-------------------------------------*/
+
+.oneibis-ul {
+  padding-left: 0;
+  list-style-type: none;
+
+  > li {
+    display: flex;
+    align-items: flex-start;
+    line-height: 1.4;
+  }
+
+  > li > .oneibis {
+    margin-right: @icon-li-margin-right;
+    line-height: inherit;
+  }
+}
+
+/*------------------------
+  spinning icons
+-------------------------*/
+
+.oneibis-is-spinning {
+  -webkit-animation: oneibis-spin 2s infinite linear;
+  -moz-animation: oneibis-spin 2s infinite linear;
+  animation: oneibis-spin 2s infinite linear;
+}
+
+@-webkit-keyframes oneibis-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@-moz-keyframes oneibis-spin {
+  0% {
+    -moz-transform: rotate(0deg);
+  }
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+@keyframes oneibis-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+/*------------------------
+  rotated/flipped icons
+-------------------------*/
+
+.oneibis-rotate-90  {
+	.icon-rotate(90deg, 1);
+}
+
+.oneibis-rotate-180 {
+	.icon-rotate(180deg, 2);
+}
+
+.oneibis-rotate-270 {
+	.icon-rotate(270deg, 3);
+}
+
+.oneibis-flip-y {
+	.icon-flip(-1, 1, 0);
+}
+.oneibis-flip-x {
+	.icon-flip(1, -1, 2);
+}
+
+@import "icons";

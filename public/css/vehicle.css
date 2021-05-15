@@ -1,0 +1,109 @@
+.slide-fade-enter-active, .slide-fade-long-enter-active, .slide-fade-reverse-long-enter-active {
+    transition: all .3s ease;
+}
+
+.slide-fade-enter-active, .slide-fade-xlong-enter-active, .slide-fade-reverse-long-enter-active {
+    transition: all 0.6s ease;
+}
+
+.slide-fade-leave-active, .slide-fade-long-leave-active {
+    transition: all .3s cubic-bezier(0.5, 0.5, 0.8, 1.0);
+}
+
+.slide-fade-enter, .slide-fade-leave-to
+    /* .slide-fade-leave-active below version 2.1.8 */
+{
+    transform: translateX(-20px);
+}
+
+.slide-fade-long-enter
+    /* .slide-fade-leave-active below version 2.1.8 */
+{
+    transform: translateX(-200px);
+}
+
+.slide-fade-xlong-enter
+    /* .slide-fade-leave-active below version 2.1.8 */
+{
+    transform: translateX(200px);
+}
+
+.slide-fade-long-leave-to, .slide-fade-long-leave-active
+    /* .slide-fade-leave-active below version 2.1.8 */
+{
+    transform: translateX(-500px);
+}
+
+.slide-fade-reverse-long-enter
+    /* .slide-fade-leave-active below version 2.1.8 */
+{
+    transform: translateX(200px);
+}
+
+.list-enter-active, .list-leave-active {
+    transition: all 0.5s;
+}
+
+.list-enter, .list-leave-to {
+    opacity: 0;
+    transform: translateX(30px);
+}
+
+.list-move {
+    transition: transform 0.5s;
+}
+
+.tr-active {
+    background-color: #e3f2fd;
+    border: 2px solid #9acffa;
+}
+
+.wheel {
+    /*background-color: #0a6ebd;*/
+    border: 2px solid #999999;
+    width: 70px;
+    height: 120px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 110px;
+    border-radius: 5px;
+}
+
+.wheel-error {
+    /*background-color: #0a6ebd;*/
+    background-color: #fbf6fd !important;
+    border: 2px solid rgba(194, 0, 11, 0.78) !important;
+}
+
+.wheel:hover {
+    background-color: #dedede !important;
+}
+
+.wheel-first {
+    margin-left: 60px !important;
+}
+
+.wheel-right-first {
+    display: inline-block;
+    margin-left: 185px;
+}
+
+.wheel-left {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.wheel-right {
+    display: inline-block;
+    margin-left: 100px;
+}
+
+.wheel-set {
+    margin-bottom: 30px;
+}
+
+.wheel-selected {
+    background-color: #e3f2fd !important;
+    border: 2px solid #9acffa !important;
+}
+

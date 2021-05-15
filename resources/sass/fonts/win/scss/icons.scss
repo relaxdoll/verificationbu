@@ -1,0 +1,18 @@
+/*------------------------
+	icons
+-------------------------*/
+@function unicode($str) {
+  @return unquote("\"\\#{$str}\"");
+}
+
+$icon-f-dashboard: unicode(ea02);
+$icon-ic_merge_type_48px: unicode(ea03);
+
+.icon-f-dashboard::before {
+  content: $icon-f-dashboard;
+}
+
+.icon-ic_merge_type_48px::before {
+  content: $icon-ic_merge_type_48px;
+}
+

@@ -1,0 +1,218 @@
+/*------------------------
+	icons
+-------------------------*/
+@function unicode($str) {
+  @return unquote("\"\\#{$str}\"");
+}
+
+$icon-chart-pie-36-2: unicode(ea0c);
+$icon-delivery: unicode(ea0d);
+$icon-b-meeting-2: unicode(ea0e);
+$icon-wheel-2: unicode(ea0f);
+$icon-settings-2: unicode(ea10);
+$icon-time: unicode(ea11);
+$icon-bell-2: unicode(ea12);
+$icon-circle-08: unicode(ea13);
+$icon-contacts-2-2: unicode(ea14);
+$icon-wheel: unicode(ea15);
+$icon-business-contact-85: unicode(ea16);
+$icon-fuel: unicode(ea17);
+$icon-store: unicode(ea18);
+$icon-c-info-e: unicode(ea19);
+$icon-c-info: unicode(ea1a);
+$icon-info: unicode(ea1b);
+$icon-shop: unicode(ea1c);
+$icon-brakes: unicode(ea1d);
+$icon-wheel-2-2: unicode(ea1e);
+$icon-tag: unicode(ea1f);
+$icon-money-11: unicode(ea20);
+$icon-filter-tool: unicode(ea21);
+$icon-clock: unicode(ea22);
+$icon-hash-mark: unicode(ea23);
+$icon-magnifier: unicode(ea24);
+$icon-c-add: unicode(ea25);
+$icon-code: unicode(ea26);
+$icon-measure-big: unicode(ea27);
+$icon-speedometer: unicode(ea28);
+$icon-print: unicode(ea29);
+$icon-restaurant-menu: unicode(ea2a);
+$icon-network-connection: unicode(ea2b);
+$icon-move-layer-left: unicode(ea2c);
+$icon-move-layer-right: unicode(ea2d);
+$icon-tags-stack: unicode(ea2e);
+$icon-distance: unicode(ea2f);
+$icon-calendar-event-2: unicode(ea30);
+$icon-take-off: unicode(ea31);
+$icon-landing: unicode(ea32);
+$icon-pin-3: unicode(ea33);
+$icon-tags-stack-2: unicode(ea34);
+$icon-distance-2: unicode(ea35);
+
+.icon-chart-pie-36-2::before {
+  content: $icon-chart-pie-36-2;
+}
+
+.icon-delivery::before {
+  content: $icon-delivery;
+}
+
+.icon-b-meeting-2::before {
+  content: $icon-b-meeting-2;
+}
+
+.icon-wheel-2::before {
+  content: $icon-wheel-2;
+}
+
+.icon-settings-2::before {
+  content: $icon-settings-2;
+}
+
+.icon-time::before {
+  content: $icon-time;
+}
+
+.icon-bell-2::before {
+  content: $icon-bell-2;
+}
+
+.icon-circle-08::before {
+  content: $icon-circle-08;
+}
+
+.icon-contacts-2-2::before {
+  content: $icon-contacts-2-2;
+}
+
+.icon-wheel::before {
+  content: $icon-wheel;
+}
+
+.icon-business-contact-85::before {
+  content: $icon-business-contact-85;
+}
+
+.icon-fuel::before {
+  content: $icon-fuel;
+}
+
+.icon-store::before {
+  content: $icon-store;
+}
+
+.icon-c-info-e::before {
+  content: $icon-c-info-e;
+}
+
+.icon-c-info::before {
+  content: $icon-c-info;
+}
+
+.icon-info::before {
+  content: $icon-info;
+}
+
+.icon-shop::before {
+  content: $icon-shop;
+}
+
+.icon-brakes::before {
+  content: $icon-brakes;
+}
+
+.icon-wheel-2-2::before {
+  content: $icon-wheel-2-2;
+}
+
+.icon-tag::before {
+  content: $icon-tag;
+}
+
+.icon-money-11::before {
+  content: $icon-money-11;
+}
+
+.icon-filter-tool::before {
+  content: $icon-filter-tool;
+}
+
+.icon-clock::before {
+  content: $icon-clock;
+}
+
+.icon-hash-mark::before {
+  content: $icon-hash-mark;
+}
+
+.icon-magnifier::before {
+  content: $icon-magnifier;
+}
+
+.icon-c-add::before {
+  content: $icon-c-add;
+}
+
+.icon-code::before {
+  content: $icon-code;
+}
+
+.icon-measure-big::before {
+  content: $icon-measure-big;
+}
+
+.icon-speedometer::before {
+  content: $icon-speedometer;
+}
+
+.icon-print::before {
+  content: $icon-print;
+}
+
+.icon-restaurant-menu::before {
+  content: $icon-restaurant-menu;
+}
+
+.icon-network-connection::before {
+  content: $icon-network-connection;
+}
+
+.icon-move-layer-left::before {
+  content: $icon-move-layer-left;
+}
+
+.icon-move-layer-right::before {
+  content: $icon-move-layer-right;
+}
+
+.icon-tags-stack::before {
+  content: $icon-tags-stack;
+}
+
+.icon-distance::before {
+  content: $icon-distance;
+}
+
+.icon-calendar-event-2::before {
+  content: $icon-calendar-event-2;
+}
+
+.icon-take-off::before {
+  content: $icon-take-off;
+}
+
+.icon-landing::before {
+  content: $icon-landing;
+}
+
+.icon-pin-3::before {
+  content: $icon-pin-3;
+}
+
+.icon-tags-stack-2::before {
+  content: $icon-tags-stack-2;
+}
+
+.icon-distance-2::before {
+  content: $icon-distance-2;
+}
+
