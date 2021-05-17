@@ -161,7 +161,7 @@
         },
         methods: {
             submit() {
-                if (this.inspection_number && (this.inspection_number === 'INS/TH1-64/7915')) {
+                if (this.inspection_number && (this.inspection_number === 'INS/TH-64/7915')) {
                     return window.location.href = window.location.origin + `/inspect_status`;
                 } else {
                     swal("Error!", "The inspection number cannot be found", "error");
