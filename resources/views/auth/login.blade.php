@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8"/>
-    {{--    <link rel="shortcut icon" href="/img/oneibis.png" type="image/x-icon">--}}
+    <link rel="shortcut icon" href="/img/logobv.png" type="image/x-icon">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
 
     <title>Bureau Veritas</title>
@@ -129,7 +129,7 @@
             submit() {
                 const username = this.username ? this.username.toLowerCase() : null;
                 if (username && this.password) {
-                    if (username === 'prin@eecl.co.th' || username === 'admin@inspection-bureauveritas.com' || username === 'ozawa@gaiacorp.com') {
+                    if (username === 'relaxdoll@hotmail.com' || username === 'admin@inspection-bureauveritas.com' || username === 'ozawa@gaiacorp.com') {
                         if (this.password === 'System99!' || this.password === 'System99th') {
                             return window.location.href = window.location.origin + `/certified`;
                         } else {

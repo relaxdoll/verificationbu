@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8"/>
-    {{--    <link rel="shortcut icon" href="/img/oneibis.png" type="image/x-icon">--}}
+    <link rel="shortcut icon" href="/img/logobv.png" type="image/x-icon">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
 
     <title>Online tools | LCIE Bureau Veritas</title>
@@ -161,7 +161,7 @@
         },
         methods: {
             submit() {
-                if (this.inspection_number && (this.inspection_number === 'IND 16-060/2136' || this.inspection_number === 'INS/TH-79/9564')) {
+                if (this.inspection_number && (this.inspection_number === 'INS/TH1-64/7915')) {
                     return window.location.href = window.location.origin + `/inspect_status`;
                 } else {
                     swal("Error!", "The inspection number cannot be found", "error");

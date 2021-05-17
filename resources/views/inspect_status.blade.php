@@ -117,7 +117,7 @@
                                         <td></td>
                                     </tr>
                                     <tr class="text-center" style="background-color: #d9d9d940; color: #2b3384">
-                                        <th scope="row" style="color: black"><em>31/03/21</em></th>
+                                        <th scope="row" style="color: black"><em>02/05/21</em></th>
                                         <td>1st INSPECTION STARTED</td>
                                         <td><em>PASSED</em></td>
                                         <td>DRAFT</td>
@@ -130,7 +130,7 @@
                                         <td></td>
                                     </tr>
                                     <tr class="text-center" style="background-color: #d9d9d940; color: #2b3384">
-                                        <th scope="row" style="color: black"><em>01/04/21</em></th>
+                                        <th scope="row" style="color: black"><em>05/05/21</em></th>
                                         <td>2nd INSPECTION STARTED</td>
                                         <td><em>PASSED</em></td>
                                         <td>DRAFT</td>
@@ -143,7 +143,7 @@
                                         <td></td>
                                     </tr>
                                     <tr class="text-center" style="background-color: #d9d9d940; color: #2b3384">
-                                        <th scope="row" style="color: black"><em>08/04/21</em></th>
+                                        <th scope="row" style="color: black"><em>15/05/21</em></th>
                                         <td>ISSUED REPORT</td>
                                         <td><em>PASSED</em></td>
                                         <td>FINAL TEST REPORT</td>
@@ -451,7 +451,7 @@
                                 <div style="background-color: rgba(217, 217, 217, 0.25); color: rgb(43, 51, 132); padding: 5px; margin-top: 10px">
                                     <div class="row">
                                         <div class="col-5 col-sm-4" style="color: black; font-weight: bold;">Date</div>
-                                        <div class="col-7 col-sm-8" style="color: black; font-weight: bold; font-style: italic">31/03/21</div>
+                                        <div class="col-7 col-sm-8" style="color: black; font-weight: bold; font-style: italic">02/05/21</div>
                                     </div>
                                     <div class="row">
                                         <div class="col-5 col-sm-4" style="color: black; font-weight: bold;">Action</div>
@@ -473,7 +473,7 @@
                                 <div style="background-color: rgba(217, 217, 217, 0.25); color: rgb(43, 51, 132); padding: 5px; margin-top: 10px">
                                     <div class="row">
                                         <div class="col-5 col-sm-4" style="color: black; font-weight: bold;">Date</div>
-                                        <div class="col-7 col-sm-8" style="color: black; font-weight: bold; font-style: italic">01/04/21</div>
+                                        <div class="col-7 col-sm-8" style="color: black; font-weight: bold; font-style: italic">05/05/21</div>
                                     </div>
                                     <div class="row">
                                         <div class="col-5 col-sm-4" style="color: black; font-weight: bold;">Action</div>
@@ -495,7 +495,7 @@
                                 <div style="background-color: rgba(217, 217, 217, 0.25); color: rgb(43, 51, 132); padding: 5px; margin-top: 10px">
                                     <div class="row">
                                         <div class="col-5 col-sm-4" style="color: black; font-weight: bold;">Date</div>
-                                        <div class="col-7 col-sm-8" style="color: black; font-weight: bold; font-style: italic">08/04/21</div>
+                                        <div class="col-7 col-sm-8" style="color: black; font-weight: bold; font-style: italic">16/05/21</div>
                                     </div>
                                     <div class="row">
                                         <div class="col-5 col-sm-4" style="color: black; font-weight: bold;">Action</div>
@@ -831,7 +831,7 @@
                 </a>
             </div>
             <div class="bloc_page mt-2" style="background-color: #dc0143; border-radius: 5px; border-bottom: 1px solid #999999">
-                <a href="/images/37E1571F-BC23-4BAB-BBA1-8CA1173DE12.pdf" class="p5" style="text-decoration: none; color: white" download>
+                <a href="/images/GAIA_CORP_995_BV_INSPECTIONTH.pdf" class="p5" style="text-decoration: none; color: white" download>
                     <i class="fas fa-download" style="color: white"></i>&nbsp; Download
                 </a>
             </div>
