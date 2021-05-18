@@ -831,7 +831,7 @@
                 </a>
             </div>
             <div class="bloc_page mt-2" style="background-color: #dc0143; border-radius: 5px; border-bottom: 1px solid #999999">
-                <a href="/images/GAIA_CORP_995_BV_INSPECTIONTH.pdf" class="p5" style="text-decoration: none; color: white" download>
+                <a href="/images/CBGGT_BV_INSPECTIONTH.pdf" class="p5" style="text-decoration: none; color: white" download>
                     <i class="fas fa-download" style="color: white"></i>&nbsp; Download
                 </a>
             </div>
